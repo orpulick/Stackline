@@ -70,14 +70,14 @@ function Graph({ sales }) {
       const monthString = i < 9 ? "0" + (i + 1) : (i + 1).toString();
 
       const saleNum = calculateLableNum(monthString);
-      console.log(saleNum);
+      //console.log(saleNum);
       for (let j = 1; j < saleNum; j++) {
         newLabels.push("");
       }
     }
     return newLabels;
   };
-  console.log(createLabels());
+  //console.log(createLabels());
 
   const data = {
     labels: createLabels(),

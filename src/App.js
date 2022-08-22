@@ -4,10 +4,11 @@ import Chart from "./Chart";
 import Graph from "./Graph";
 import Sidebar from "./Sidebar";
 import { useSelector } from "react-redux";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const ninja = useSelector((state) => state.ninja);
-  console.log(ninja);
+
   return (
     <div className="App">
       <Header title={ninja.details.title} />
