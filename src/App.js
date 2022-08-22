@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import Header from "./Header";
+import Chart from "./Chart";
+import Graph from "./Graph";
+import Sidebar from "./Sidebar"
 import './App.css';
 
 function App() {
